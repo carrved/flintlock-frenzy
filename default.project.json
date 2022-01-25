@@ -20,7 +20,13 @@
     "StarterGui": {
       "$className": "StarterGui",
       "$ignoreUnknownInstances": true,
-      "$path": "src/StarterGui"
+      "$path": "src/StarterGui",
+      "PlayerList": {
+        "$className": "ScreenGui",
+        "LocalScript": {
+          "$path": "src/StarterGui/PlayerList"
+        }
+      }
     },
     "StarterPack": {
       "$className": "StarterPack",

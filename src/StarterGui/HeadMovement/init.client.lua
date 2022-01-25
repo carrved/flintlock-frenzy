@@ -2,7 +2,7 @@
 Original: Unknown, Upgraded by: foodman54
 ]]--
 
--- ian was here lol
+-- ian was here lol ggg865r23487ut234gyj23h
 
 wait()
 
@@ -16,7 +16,7 @@ local Plr = game.Players.LocalPlayer
 local Mouse = Plr:GetMouse()
 local Body = Plr.Character or Plr.CharacterAdded:wait()
 local Head = Body:WaitForChild("Head")
-local Hum = Body:WaitForChild("Humanoid")
+local Hum = Body:WaitForChild("Humanoid")1
 local Core = Body:WaitForChild("HumanoidRootPart")
 local IsR6 = (Hum.RigType.Value==0)
 local Trso = (IsR6 and Body:WaitForChild("Torso")) or Body:WaitForChild("UpperTorso")
