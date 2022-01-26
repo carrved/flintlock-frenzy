@@ -20,6 +20,7 @@ game.Players.PlayerAdded:Connect(function(player)
 		newtext.Parent = head
 		newtext.Adornee = head
 		uppertext.Text = player.Name --Changes the text to the player's name.
+		lowertext.Text = "Member"
 		
 		--"If" Statements
 		--You can add as many of these as you wish, just change it to the player's name.

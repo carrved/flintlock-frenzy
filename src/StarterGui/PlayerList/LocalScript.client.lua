@@ -1,26 +1,23 @@
 -- EchoAUS' Custom PlayerList
 
-local GroupId = 5662718
+local GroupId = 13543798
 local UseGroupRanks = true -- Displays the rank name next to the player's name
 local UseRankTitles = false -- Uses the name of the rank in the group instead of Group_Ranks
 local TitlesEnabled = false
 
 local Player_Ranks = { -- Custom titles next to player's names
 	whos_ian = {Title = "Owner", Color = Color3.fromRGB(255, 0, 0)}
-    MisterSparkz = {Title = "Owner", Color = Color3.fromRGB(255, 0, 0)}
-    Diamonddaichan = {Title = "Admin", Color = Color3.fromRGB(255, 123, 123)}
 }
 local Group_Ranks = {
 	[255] = {Title = "Cody", Color = Color3.fromRGB(222, 121, 255)},
 	[254] = {Title = "Ian", Color = Color3.fromRGB(44, 210, 255)},
 }
 local PlayerIcons = { -- Custom icons (like the premium and friend icons)
-	EchoAUS = {"rbxassetid://5585574829"},
-	Player1 = {"rbxassetid://5590163573"}
+	whos_ian = {"rbxassetid://8642133345"}
 }
 
 ------------- You can ignore everything below -------------
-game.StarterGui:SetCoreGuiEnabled("PlayerList", false)
+game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false)
 local LocalPlayer = game.Players.LocalPlayer
 
 local Players = {}
